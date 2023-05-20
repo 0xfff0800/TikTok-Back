@@ -1,0 +1,16 @@
+1- git clone https://github.com/0xfff0800/botback.git
+2- cd botback
+3- pip install -r requirements.txt
+4- python3 botback.py 
+
+مثال :
+
+python3 botback.py -u falah  
+
+python3 botback.py -u falah -from 2022-01-05 
+
+python3 botback.py -u falah -to 2022/02/09 
+
+python3 botback.py -u falah -from 2020-08-30 -to 2020-09-15  
+
+python3 botback.py -u flaah --proxy-file proxy.txt
