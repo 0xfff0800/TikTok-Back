@@ -99,7 +99,7 @@ For checking large numbers of tweets (> than 800) you'll need to use web proxies
  - Quality of the HTML files depends on how the Wayback Machine saved them. Some are better than others.
  - This tool is best for text. You might have some luck with photos. You cannot download videos.
  - By definition, if an account is suspended or no longer exists, all their video would be considered deleted.
- - Custom date range is not about when Tweets were made, but rather when they were _archived_. For example, a video from 2011 may have been archived today.
+ - Custom date range is not about when video were made, but rather when they were _archived_. For example, a video from 2011 may have been archived today.
 
 ## Telegram 👋
 Follow our channel for more tools
