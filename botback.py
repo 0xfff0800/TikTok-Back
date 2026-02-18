@@ -124,7 +124,7 @@ if len(re.findall(r'Blocked', cdx_page_text)) != 0:
     sys.exit(-1)
 
 
-tweet_id_and_url_dict = {line.split()[2].lower().split('?')[0]: line.split()[1] for line in cdx_page_text.splitlines()}
+tweet_id_and_url_dict = {parts[2].lower().split('?')[0]: parts[1] for line in cdx_page_text.splitlines() if (parts := line.split()) and len(parts) > 2}
 
 
 twitter_url_list = []
